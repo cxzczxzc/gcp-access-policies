@@ -43,7 +43,7 @@ terraform apply --auto-approve
 
 1. Check the configuration of both the access policies, and their respective access levels and VPC-SC perimeters' configuration.
 2. Add project contained in the VPC-SC perimeter using the scoped access policy to the  VPC-SC perimeter using the org level access policy. 
-    - This should cause a 400 error because the project is already within the VPC-SC perimeter using the scoped access policy. 
+    - This should cause a 400 error because the project is already within the VPC-SC perimeter using the scoped access policy and it cannot be added to another VPC-SC perimeter. 
 3. Delete the scoped access policy, access levels, and the VPC-SC perimeter using the scoped access policy.
 4. Verify that the org level access policy and its components are unaffected.
 
