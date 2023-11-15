@@ -30,7 +30,7 @@ terraform apply --auto-approve
 ### Deploy and configure a **Scoped Access Policy at the Folder Level**
 1. Go to the `folder_infra` folder and update the `terraform.tfvars`
 ```bash
-cd folder
+cd folder_infra
 ```
 2. Create the access policy
 ```bash
