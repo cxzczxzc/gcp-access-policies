@@ -1,3 +1,3 @@
-approved_users=["user:saadx@google.com","user:jonacto@google.com"]
-org_id="682829993557"
-project_numbers=["555070468425","956387437882"]
+approved_users=["user:example1@google.com","user:example2@google.com"]
+org_id="<YOUR_ORG_ID_NUMBER>"
+project_numbers=["<PROJECT_NUMBER_1>","<PROJECT_NUMBER_2>"]
