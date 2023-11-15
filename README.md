@@ -10,7 +10,10 @@ Each access policy has corresponding access levels. The access levels determine 
 - gcloud 
 
 ## Demo Objective
-This repo contains the code for demonstrating how two GCP access policies would work simultaneously. This is the order of execution of this demo:
+This repo contains the code for demonstrating how two GCP access policies would work simultaneously.
+
+Two access policies will be created, one at the organization node level, and other scoped to the folder level. Both access policies will have their respective VPC-SC perimeters.
+It would be proven that both policies existing at the same time would not impact each others' configuration or resources.
 
 ## Deployment Steps
 
