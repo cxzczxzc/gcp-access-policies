@@ -23,7 +23,7 @@ It would be proven that both policies existing at the same time would not impact
 ```bash
 cd org_infra
 ```
-2. Create the access policy
+2. Create the access policy, access levels, and VPC-SC perimeter at the organization node
 ```bash
 terraform init
 terraform plan
@@ -35,7 +35,7 @@ terraform apply --auto-approve
 ```bash
 cd folder_infra
 ```
-2. Create the access policy
+2. Create the scoped access policy, access levels, and VPC-SC perimeter at the folder level
 ```bash
 terraform init
 terraform plan
